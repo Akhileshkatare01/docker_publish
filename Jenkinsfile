@@ -22,7 +22,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS_ID = "docker-hub-credentials"
     }
  
-stages i{
+stages {
         stage('Checkout Code') {
             steps {
                 // Get some code from a GitHub repository
